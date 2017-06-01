@@ -4,12 +4,11 @@
 <suite name="Daxx Test Suite. " preserve-order="true">
 
 
-    <!--<test name="LocationWindow">-->
-    <!--<classes>-->
-    <!--<class name="com.bonial.tests.LocationWindowVisibilityTest"></class>-->
-    <!--<class name="com.bonial.tests.LocationWindowFunctionalTest"></class>-->
-    <!--</classes>-->
-    <!--</test>-->
+    <test name="Task 1">
+        <classes>
+            <class name="com.daxx.tests.LoginTest"></class>
+        </classes>
+    </test>
 
 
 </suite>
