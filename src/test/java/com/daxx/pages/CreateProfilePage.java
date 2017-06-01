@@ -9,6 +9,10 @@ import static com.codeborne.selenide.Selenide.$;
  */
 public class CreateProfilePage {
 
+    public SelenideElement passToCreateProfileBtn = $("aside > a[href=\"/mijn/account\"]");
+
+    public SelenideElement avatarSection = $(".dash-block .mp-pass-avatar-edit");
+
     public SelenideElement maleRadioBut = $("input[id=geslacht-m]");
     public SelenideElement femaleRadioBut = $("input[id=geslacht-v]");
 
@@ -26,4 +30,6 @@ public class CreateProfilePage {
     public SelenideElement usernameInput = $("#username");
     public SelenideElement pswInput = $("#psw");
     public SelenideElement pswConfirmInput = $("#psw2");
+
+    public SelenideElement submitBtn = $("#submitBtn");
 }
